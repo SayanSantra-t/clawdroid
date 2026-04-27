@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no,viewport-fit=cover"/>
+  <meta name="theme-color" content="#0a0a0f"/>
+  <meta name="description" content="ClawDroid - Open-source AI Assistant for Android"/>
+  <title>ClawDroid</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="/src/styles/main.css"/>
+</head>
+<body>
+  <div id="splash-screen" class="splash-screen">
+    <div class="splash-logo">
+      <div class="splash-claw-icon">🦞</div>
+      <h1 class="splash-title">ClawDroid</h1>
+      <p class="splash-subtitle">Your AI. Your Device. Your Rules.</p>
+      <div class="splash-loader"><div class="splash-loader-bar"></div></div>
+    </div>
+  </div>
+  <div id="app" class="app hidden">
+    <div class="status-bar-spacer"></div>
+    <header id="app-header" class="app-header">
+      <button id="btn-menu" class="header-btn" aria-label="Menu">☰</button>
+      <div class="header-center"><span class="header-logo">🦞</span><h1 class="header-title" id="page-title">ClawDroid</h1></div>
+      <button id="btn-voice" class="header-btn voice-btn" aria-label="Voice">🎙️</button>
+    </header>
+    <div id="sidebar-overlay" class="sidebar-overlay hidden"></div>
+    <nav id="sidebar" class="sidebar"></nav>
+    <main id="main-content" class="main-content"></main>
+    <nav id="bottom-nav" class="bottom-nav"></nav>
+    <div id="voice-overlay" class="voice-overlay hidden"></div>
+  </div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
