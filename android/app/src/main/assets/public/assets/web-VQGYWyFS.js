@@ -1,1 +1,0 @@
-import{WebPlugin as o}from"./index-CXATIzgh.js";class s extends o{async show(e){if(typeof document<"u"){let n=2e3;e.duration&&(n=e.duration==="long"?3500:2e3);const t=document.createElement("pwa-toast");t.duration=n,t.message=e.text,document.body.appendChild(t)}}}export{s as ToastWeb};

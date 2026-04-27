@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources>
-    <string name="app_name">ClawDroid</string>
-    <string name="title_activity_main">ClawDroid</string>
-    <string name="package_name">com.clawdroid.app</string>
-    <string name="custom_url_scheme">com.clawdroid.app</string>
-</resources>
